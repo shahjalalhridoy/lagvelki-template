@@ -13005,10 +13005,12 @@ label.error {
   text-transform: uppercase;
 }
 .price-wrap .middle-price {
+ 
   float: left;
-  position: relative;
-  text-align: center;
-  width: 45%;
+    position: relative;
+    text-align: left;
+    width: 41%;
+    padding: 0px 10px;
 }
 @media only screen and (max-width: 576px) {
   .price-wrap .middle-price {

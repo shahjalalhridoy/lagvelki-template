@@ -146,3 +146,28 @@
       top: 6px;
       left: 0;
     }
+
+    table {
+
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ffbd7f;
+  text-align: left;
+  padding:4px 30px;
+  margin: 4px 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffbd7f;
+}
+
+p.white_color {
+    margin: 5px 20px;
+}
+
+
+p.theme_color {
+    margin: 5px 20px;
+}
