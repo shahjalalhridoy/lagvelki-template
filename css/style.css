@@ -12802,7 +12802,7 @@ label.error {
   font-size: 14px;
   line-height: 28px;
   color: #666;
-  padding: 0 10%;
+  padding: 0 2%;
 }
 @media only screen and (max-width: 1400px) {
   .page-nav p {
