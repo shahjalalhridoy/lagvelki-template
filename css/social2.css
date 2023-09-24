@@ -1,11 +1,11 @@
 
 .fa {
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   /*width: 50px;*/
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 5px;
 }
 
 /*.fa:hover {
@@ -170,6 +170,11 @@ p.white_color {
 
 p.theme_color {
     margin: 5px 20px;
+     color: #f26726;
+}
+
+.theme-dark p.theme_color {
+  color: #fff!important;
 }
 
 /* Shared */
