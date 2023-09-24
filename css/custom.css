@@ -293,5 +293,5 @@ p {line-height: 30px;  }
 }
 
 .theme-dark .icon-div.mb80 {
-   box-shadow: 5px 5px 5px #4b4b4d;
+  border: 1px #555 solid;
 }
