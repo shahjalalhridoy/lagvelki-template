@@ -13855,7 +13855,7 @@ label.error {
   color: #f27b51;
   display: inline-block;
   text-align: center;
-  padding: 0 30px;
+  padding: 2px 30px;
 }
 .price-table .price-tab h2 {
   font-size: 30px;

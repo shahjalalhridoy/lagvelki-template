@@ -286,3 +286,12 @@ p {line-height: 30px;  }
   text-align: center;
   font-family: arial;
 }
+
+.icon-div.mb80:hover {
+  border: 1px solid red;
+  box-shadow: 5px 5px 5px #4b4b4d;
+}
+
+.theme-dark .icon-div.mb80 {
+   box-shadow: 5px 5px 5px #4b4b4d;
+}
