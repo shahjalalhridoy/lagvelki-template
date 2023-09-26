@@ -266,7 +266,7 @@ a.category-wrap {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -326,4 +326,38 @@ a.category-wrap {
 .button5:hover {
   background-color: #555555;
   color: white;
+}
+
+   .holder { 
+  /*background-color:#ccc;*/
+  width:100%;
+  height:250px;
+  overflow:hidden;
+  padding:10px;
+  font-family:Helvetica;
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width:100%;
+  height:240px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:#f26726;
+  text-decoration:none;
+}
+
+.theme-dark span.clr_white{
+color: #fff;
 }
