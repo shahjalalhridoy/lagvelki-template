@@ -12735,12 +12735,20 @@ label.error {
   border-radius: 6px;
   overflow: hidden;
 }
-.category-wrap span {
+/*.category-wrap span {
   font-size: 14px;
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
   line-height: 120px;
+}*/
+    .category-wrap span {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #f26726;
+    letter-spacing: 1px;
+    line-height: 2.5em;
+
 }
 
 .crew-wrap {
