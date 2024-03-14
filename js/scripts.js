@@ -228,11 +228,22 @@ $(document).ready(function() {
 
     $('.toggle input').on('change', function () {
         if (this.checked) {
-            $('body').addClass('theme-dark');
-        } else {
+            // $('body').addClass('theme-dark');
             $('body').removeClass('theme-dark');
+
+        } else {
+            //$('body').removeClass('theme-dark');
+            $('body').addClass('theme-dark');
         }
     });
+
+    // $('.toggle input').on('change', function () {
+    //     if (this.checked) {
+    //         $('body').addClass('theme-dark');
+    //     } else {
+    //         $('body').removeClass('theme-dark');
+    //     }
+    // });
 
     $('input[name="color-radio"]').on('change', function () {
         if (this.checked) {
