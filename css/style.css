@@ -12122,7 +12122,10 @@ label.error {
   margin-top: 100px;
   padding: 100px 0 10px;
   background-color: #111;
+ /*background: linear-gradient(90.06deg, rgba(20, 20, 20, 0) 1.66%, #0f0f0f 43.64%, rgba(20, 20, 20, 0) 89.28%);*/
 }
+
+
 @media only screen and (max-width: 768px) {
   .footer-wrapper {
     margin-top: 30px;
@@ -14138,4 +14141,19 @@ body {
 .price .grey {
   background-color: #eee;
   font-size: 20px;
+}
+
+
+button.form2-btn {
+    height: 50px;
+    border-radius: 7px;
+    background-color: var(--f7-theme-color);
+    width: 140px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 0;
+    line-height: 40px;
 }
